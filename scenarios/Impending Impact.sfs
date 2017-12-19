@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.2.0
-	Title = Impending Impact
-	Description = The Mun 7 flyby spacecraft is heading straight for an impact with the Mun!See if you can avoid a catastrophe and get Jebediah back home!
+	Title = #autoLOC_1200087
+	Description = #autoLOC_1200088
 	linkURL = 
 	linkCaption = 
 	Mode = SCENARIO
@@ -129,7 +129,7 @@ GAME
 		VESSEL
 		{
 			pid = d2b5820a4bec4e4daeaea150bb7598f5
-			name = Mun 7
+			name = #autoLOC_6002438		//Mun 7
 			type = Ship
 			sit = ORBITING
 			landed = False
@@ -199,7 +199,7 @@ GAME
 				flag = Squad/Flags/default
 				rTrf = mk1pod (Mun 7)
 				modCost = 0
-				crew = Jebediah Kerman
+				crew = #autoLOC_20803
 				EVENTS
 				{
 				}
@@ -218,7 +218,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						HibernateToggle
@@ -242,7 +242,7 @@ GAME
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -274,7 +274,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -296,7 +296,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -319,7 +319,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CollectAllAction
@@ -339,7 +339,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -354,7 +354,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -370,7 +370,7 @@ GAME
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -390,7 +390,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -405,7 +405,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -498,7 +498,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -521,7 +521,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -536,7 +536,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -551,7 +551,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -614,7 +614,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -634,7 +634,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -650,7 +650,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -672,7 +672,7 @@ GAME
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DecoupleAction
@@ -691,7 +691,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -706,7 +706,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -779,7 +779,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DecoupleAction
@@ -799,7 +799,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -826,7 +826,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -960,7 +960,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -987,7 +987,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1052,7 +1052,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -1132,7 +1132,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -1217,7 +1217,7 @@ GAME
 	{
 		KERBAL
 		{
-			name = Jebediah Kerman
+			name = #autoLOC_20803
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -1248,7 +1248,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bill Kerman
+			name = #autoLOC_20811
 			gender = Male
 			type = Crew
 			trait = Engineer
@@ -1304,7 +1304,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Valentina Kerman
+			name = #autoLOC_20827
 			gender = Female
 			type = Crew
 			trait = Pilot

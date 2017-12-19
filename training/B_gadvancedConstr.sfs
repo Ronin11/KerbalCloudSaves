@@ -1,8 +1,8 @@
 GAME
 {
 	version = 1.0.0
-	Title = Advanced   Construction
-	Description = This tutorial, presented by famous rocket scientist Wernher von Kerman himself, covers how to design a craft that can orbit Kerbin and return safely.
+	Title = #autoLOC_1100024
+	Description = #autoLOC_1100025
 	Mode = SANDBOX
     // scene to load when starting this save.
 	scene = 5
@@ -71,13 +71,14 @@ GAME
 	{
 		KERBAL
 		{
-			name = Jebediah Kerman
+			name = #autoLOC_20803
 			gender = Male
 			type = Crew
 			trait = Pilot
 			brave = 0.5
 			dumb = 0.5
 			badS = True
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0
@@ -94,13 +95,14 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bill Kerman
+			name = #autoLOC_20811
 			gender = Male
 			type = Crew
 			trait = Engineer
 			brave = 0.5
 			dumb = 0.8
 			badS = False
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0
@@ -116,13 +118,14 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bob Kerman
+			name = #autoLOC_20819
 			gender = Male
 			type = Crew
 			trait = Scientist
 			brave = 0.3
 			dumb = 0.1
 			badS = False
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0
@@ -138,13 +141,14 @@ GAME
 		}
 		KERBAL
 		{
-			name = Valentina Kerman
+			name = #autoLOC_20827
 			gender = Female
 			type = Crew
 			trait = Pilot
 			brave = 0.55
 			dumb = 0.4
 			badS = True
+			veteran = True
 			tour = False
 			state = Available
 			ToD = 0

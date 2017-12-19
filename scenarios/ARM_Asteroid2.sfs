@@ -1,10 +1,10 @@
 GAME
 {
 	version = 1.2.0
-	Title = Asteroid Redirect Mission: Ready to Capture
-	Description = The Asteroid Redirect Mission, created with the collaboration of NASA, features asteroids orbiting close to Kerbin, as well as new tools that allow you to actually capture one, redirect its orbit, and perform new science research on it.In this scenario, the Retriever A2 spacecraft is only a few meters away from the asteroid, ready to deploy its grappling device and attach itself. Can you maneuver it into a closed orbit around Kerbin's Mun?
+	Title = #autoLOC_1200005
+	Description = #autoLOC_1200006
 	linkURL = www.nasa.gov/asteroidinitiative
-	linkCaption = Learn More about NASA's real Asteroid Redirect Mission
+	linkCaption = #autoLOC_7001030
 	Mode = SCENARIO_NON_RESUMABLE
 	Status = 1
 	Seed = 331599454
@@ -133,7 +133,7 @@ GAME
 				completed = 349.76334472654298
 				crew
 				{
-					crews = Jebediah Kerman
+					crews = #autoLOC_20803
 				}
 			}
 			ReachedSpace
@@ -146,7 +146,7 @@ GAME
 				}
 				crew
 				{
-					crews = Jebediah Kerman
+					crews = #autoLOC_20803
 				}
 			}
 			Sun
@@ -179,7 +179,7 @@ GAME
 					}
 					crew
 					{
-						crews = Jebediah Kerman
+						crews = #autoLOC_20803
 					}
 				}
 				Escape
@@ -196,7 +196,7 @@ GAME
 					}
 					crew
 					{
-						crews = Jebediah Kerman
+						crews = #autoLOC_20803
 					}
 				}
 				ReturnFromOrbit
@@ -209,7 +209,7 @@ GAME
 					}
 					crew
 					{
-						crews = Jebediah Kerman
+						crews = #autoLOC_20803
 					}
 				}
 			}
@@ -226,7 +226,7 @@ GAME
 					}
 					crew
 					{
-						crews = Jebediah Kerman
+						crews = #autoLOC_20803
 					}
 				}
 				Escape
@@ -243,7 +243,7 @@ GAME
 					}
 					crew
 					{
-						crews = Jebediah Kerman
+						crews = #autoLOC_20803
 					}
 				}
 				SurfaceEVA
@@ -251,7 +251,7 @@ GAME
 					completed = 45797.235795866603
 					crew
 					{
-						crews = Jebediah Kerman
+						crews = #autoLOC_20803
 					}
 				}
 				ReturnFromOrbit
@@ -264,7 +264,7 @@ GAME
 					}
 					crew
 					{
-						crews = Jebediah Kerman
+						crews = #autoLOC_20803
 					}
 				}
 				Flyby
@@ -281,7 +281,7 @@ GAME
 					}
 					crew
 					{
-						crews = Jebediah Kerman
+						crews = #autoLOC_20803
 					}
 				}
 				ReturnFromSurface
@@ -294,7 +294,7 @@ GAME
 					}
 					crew
 					{
-						crews = Jebediah Kerman
+						crews = #autoLOC_20803
 					}
 				}
 			}
@@ -581,7 +581,7 @@ GAME
 		VESSEL
 		{
 			pid = 307f298e710646dca2b8ff68723be5ef
-			name = Retriever A2
+			name = #autoLOC_6002430
 			type = Ship
 			sit = ORBITING
 			landed = False
@@ -651,7 +651,7 @@ GAME
 				flag = Squad/Flags/default
 				rTrf = cupola (Retriever A2)
 				modCost = 0
-				crew = Bill Kerman
+				crew = #autoLOC_20811
 				EVENTS
 				{
 				}
@@ -670,7 +670,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						HibernateToggle
@@ -694,7 +694,7 @@ GAME
 					WheelState = Active
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CycleAction
@@ -728,7 +728,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						DeployAction
@@ -751,7 +751,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						CollectAllAction
@@ -771,7 +771,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -787,7 +787,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -807,7 +807,7 @@ GAME
 					canComm = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						StartTransmissionAction
@@ -827,7 +827,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -919,7 +919,7 @@ GAME
 					grappleOrt2 = 0,0,0
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ReleaseAction
@@ -948,7 +948,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -967,7 +967,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -983,7 +983,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1227,7 +1227,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -1304,7 +1304,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ExtendPanelsAction
@@ -1386,7 +1386,7 @@ GAME
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1460,7 +1460,7 @@ GAME
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1534,7 +1534,7 @@ GAME
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1608,7 +1608,7 @@ GAME
 					stagingEnabled = False
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						ToggleAction
@@ -1800,7 +1800,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -1829,7 +1829,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -1850,7 +1850,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -1869,7 +1869,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1884,7 +1884,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1899,7 +1899,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -1914,7 +1914,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2113,7 +2113,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -2142,7 +2142,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -2163,7 +2163,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -2182,7 +2182,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2197,7 +2197,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2212,7 +2212,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2227,7 +2227,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2426,7 +2426,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -2455,7 +2455,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -2476,7 +2476,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -2495,7 +2495,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2510,7 +2510,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2525,7 +2525,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2540,7 +2540,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2739,7 +2739,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						OnAction
@@ -2768,7 +2768,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -2789,7 +2789,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 						JettisonAction
@@ -2808,7 +2808,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2823,7 +2823,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2838,7 +2838,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2853,7 +2853,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2929,7 +2929,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -2944,7 +2944,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3009,7 +3009,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3024,7 +3024,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3089,7 +3089,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3104,7 +3104,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3169,7 +3169,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3184,7 +3184,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3337,7 +3337,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3354,7 +3354,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3371,7 +3371,7 @@ GAME
 					stagingEnabled = True
 					EVENTS
 					{
-					}
+ 					}
 					ACTIONS
 					{
 					}
@@ -3436,10 +3436,10 @@ GAME
 	{
 		KERBAL
 		{
-			name = Jebediah Kerman
+			name = #autoLOC_20803
 			gender = Male
 			type = Crew
-			trait = Scientist
+			trait = Pilot
 			brave = 0.5
 			dumb = 0.5
 			badS = True
@@ -3464,10 +3464,10 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bill Kerman
+			name = #autoLOC_20811
 			gender = Male
 			type = Crew
-			trait = Scientist
+			trait = Engineer
 			brave = 0.5
 			dumb = 0.800000012
 			badS = False
@@ -3492,10 +3492,10 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bob Kerman
+			name = #autoLOC_20819
 			gender = Male
 			type = Crew
-			trait = Engineer
+			trait = Scientist
 			brave = 0.300000012
 			dumb = 0.100000001
 			badS = False
