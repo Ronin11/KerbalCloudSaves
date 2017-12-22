@@ -8,7 +8,7 @@ GAME
 	Mode = CAREER
 	Status = 1
 	Seed = 795946310
-	scene = 7
+	scene = 5
 	editor = None
 	flag = Squad/Flags/default
 	launchID = 69
@@ -154,7 +154,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 97441573.895242989
+		update = 97438888.538415045
 		version = 1.3.1
 		WEIGHTS
 		{
@@ -7904,7 +7904,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.3.1
-		UT = 97441579.095242873
+		UT = 97438890.778414994
 		activeVessel = 90
 		mapViewFiltering = 8190
 		commNetUIModeTracking = Network
@@ -84396,17 +84396,17 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 30058784.069183752
+			met = 30056095.832355872
 			lct = 67382794.946059123
-			lastUT = 97441579.095242873
+			lastUT = 97438890.778414994
 			root = 0
-			lat = -6.5242340307284348
-			lon = 161.40903449954575
-			alt = 23860274.820053238
+			lat = -5.2494274974002302
+			lon = -179.85450782932907
+			alt = 28972538.528409116
 			hgt = -1
-			nrm = 0.196053594,-0.976473212,-0.0897948146
-			rot = -0.0872859731,-0.43914938,0.687783897,-0.571386456
-			CoM = -0.00390600599,-0.105019115,0.00677046366
+			nrm = 0.549920738,5.33685088E-05,0.835217237
+			rot = -0.476707667,0.050126221,0.874094963,-0.0787109211
+			CoM = -0.00390873011,-0.106119461,0.00676639471
 			stg = 1
 			prst = False
 			ref = 2060469529
@@ -84416,13 +84416,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 26424145.679310806
-				ECC = 0.76022489301378782
-				INC = 10.760365375124618
-				LPE = 2.9855415627608641
-				LAN = 200.20258092956215
-				MNA = -0.99367216193615615
-				EPH = 97441579.095242873
+				SMA = 26173545.595996883
+				ECC = 0.75908281074028272
+				INC = 10.704962652483369
+				LPE = 3.6070042948853742
+				LAN = 199.97430850407255
+				MNA = -1.3490181996104953
+				EPH = 97438890.778414994
 				REF = 8
 			}
 			PART
@@ -84449,8 +84449,8 @@ GAME
 				attN = top, 9
 				mass = 0.100000001
 				shielded = False
-				temp = 117.20506454521984
-				tempExt = 117.14544835644861
+				temp = 122.14453701694649
+				tempExt = 122.02842095344045
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -84659,7 +84659,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 12.207898700491647
+					amount = 4.0300705864100186
 					maxAmount = 15
 					flowState = True
 					isTweakable = True
@@ -84692,8 +84692,8 @@ GAME
 				attN = bottom, 2
 				mass = 0.0500000007
 				shielded = False
-				temp = 117.20686356923326
-				tempExt = 117.16461690741619
+				temp = 122.14991844990368
+				tempExt = 122.09710490062798
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -84715,7 +84715,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 813.85991336609914
+					amount = 268.67137242733065
 					maxAmount = 1000
 					flowState = True
 					isTweakable = True
@@ -84749,8 +84749,8 @@ GAME
 				attN = top, 1
 				mass = 0.100000001
 				shielded = False
-				temp = 117.23699980717825
-				tempExt = 117.1735251175472
+				temp = 122.22736308738217
+				tempExt = 122.15397744494632
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -84914,8 +84914,8 @@ GAME
 				attN = bottom, 4
 				mass = 0.412499994
 				shielded = False
-				temp = 117.24368089483539
-				tempExt = 117.21268341224889
+				temp = 122.27264517509508
+				tempExt = 122.24233848047092
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -84937,7 +84937,7 @@ GAME
 				RESOURCE
 				{
 					name = XenonGas
-					amount = 5104.1797634769091
+					amount = 5121.1556108115219
 					maxAmount = 5250
 					flowState = True
 					isTweakable = True
@@ -84970,8 +84970,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.25
 				shielded = False
-				temp = 117.24435888098843
-				tempExt = 117.21620659461652
+				temp = 122.27430056962976
+				tempExt = 122.249409889717
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 1
@@ -84998,7 +84998,7 @@ GAME
 					flameout = False
 					EngineIgnited = True
 					engineShutdown = False
-					currentThrottle = 1
+					currentThrottle = 0
 					thrustPercentage = 100
 					manuallyOverridden = False
 					stagingEnabled = True
@@ -85028,7 +85028,7 @@ GAME
 				{
 					name = FXModuleAnimateThrottle
 					isEnabled = True
-					animState = 1
+					animState = 0
 					stagingEnabled = True
 					EVENTS
 					{
@@ -85081,8 +85081,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 117.24377846578032
-				tempExt = 117.230686870879
+				temp = 122.27335443000345
+				tempExt = 122.26017014003757
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -85161,8 +85161,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 117.24377846578032
-				tempExt = 117.230686870879
+				temp = 122.27335443000345
+				tempExt = 122.26017014003757
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -85241,8 +85241,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 117.24377846578032
-				tempExt = 117.230686870879
+				temp = 122.27335443000345
+				tempExt = 122.26017014003757
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -85321,8 +85321,8 @@ GAME
 				srfN = srfAttach, 3
 				mass = 0.0500000007
 				shielded = False
-				temp = 117.24377846578032
-				tempExt = 117.230686870879
+				temp = 122.27335443000345
+				tempExt = 122.26017014003757
 				tempExtUnexp = 4
 				expt = 0
 				state = 0
@@ -85400,8 +85400,8 @@ GAME
 				attN = bottom, 0
 				mass = 0.200000003
 				shielded = False
-				temp = 117.05699953385144
-				tempExt = 116.96432967808528
+				temp = 121.57582778272936
+				tempExt = 121.52147134305855
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -85494,8 +85494,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.00499999989
 				shielded = False
-				temp = 117.07759953946191
-				tempExt = 117.02666381430893
+				temp = 121.68107559275303
+				tempExt = 121.64915170089868
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -85583,8 +85583,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.0500000007
 				shielded = False
-				temp = 117.08456194743036
-				tempExt = 117.02885594127667
+				temp = 121.69497632752737
+				tempExt = 121.65539036998206
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -85677,8 +85677,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.00499999989
 				shielded = False
-				temp = 117.0845753214373
-				tempExt = 117.02452245208323
+				temp = 121.69499966956805
+				tempExt = 121.65442433045112
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -85766,8 +85766,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.00499999989
 				shielded = False
-				temp = 117.06557455730876
-				tempExt = 117.02292515256315
+				temp = 121.66545879808415
+				tempExt = 121.63368793401401
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -85856,8 +85856,8 @@ GAME
 				attN = bottom, 9
 				mass = 0.300000012
 				shielded = False
-				temp = 117.08488105168649
-				tempExt = 117.0415585839357
+				temp = 121.690931394279
+				tempExt = 121.65107809676476
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -85974,8 +85974,8 @@ GAME
 				attN = bottom, -1
 				mass = 0.100000001
 				shielded = False
-				temp = 117.08551859837789
-				tempExt = 117.07816463534544
+				temp = 121.68953488253572
+				tempExt = 121.66109570629729
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -86071,8 +86071,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.300000012
 				shielded = False
-				temp = 117.07157441719315
-				tempExt = 116.91991137962327
+				temp = 121.67352352966459
+				tempExt = 121.75097892803183
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -86097,7 +86097,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 67382794.946059123
-					currentRotation = (-0.524401665, -0.52414, -0.474464297, 0.474514425)
+					currentRotation = (-0.707134545, -0.706949115, -0.00948303845, 0.00969154853)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -86149,8 +86149,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.300000012
 				shielded = False
-				temp = 117.02136863289395
-				tempExt = 116.87846107395076
+				temp = 121.49140165385718
+				tempExt = 121.33511602272355
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -86175,7 +86175,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 67382794.946059123
-					currentRotation = (0.433840394, 0.433688194, 0.558534265, -0.558333814)
+					currentRotation = (0.0191479903, 0.0191339832, 0.706943035, -0.7067523)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -86227,8 +86227,8 @@ GAME
 				srfN = srfAttach, 9
 				mass = 0.300000012
 				shielded = False
-				temp = 117.03646746373371
-				tempExt = 116.88933280820322
+				temp = 121.67991714398894
+				tempExt = 121.55650196680395
 				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
@@ -86253,7 +86253,7 @@ GAME
 					isEnabled = True
 					efficiencyMult = 1
 					launchUT = 67382794.946059123
-					currentRotation = (-0.536994636, -0.536925972, -0.460237324, 0.459922671)
+					currentRotation = (-0.0190315843, -0.0192480311, -0.706959188, 0.706736267)
 					storedAnimationTime = 0
 					storedAnimationSpeed = 0
 					deployState = EXTENDED
@@ -86311,6 +86311,11 @@ GAME
 			}
 			FLIGHTPLAN
 			{
+				MANEUVER
+				{
+					UT = 97439363.809442937
+					dV = 41.10568823675171,0,0
+				}
 			}
 			TARGET
 			{
@@ -86319,13 +86324,13 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = 0.0351965651
-				yaw = -0.0260806661
-				roll = 0.012388017
+				pitch = 0.00126245129
+				yaw = 0.000741344003
+				roll = 8.55667313E-05
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
-				mainThrottle = 1
+				mainThrottle = 0
 			}
 			VESSELMODULES
 			{
