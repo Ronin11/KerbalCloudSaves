@@ -1276,7 +1276,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bob Kerman
+			name = #autoLOC_1200097
 			gender = Male
 			type = Crew
 			trait = Scientist

@@ -537,8 +537,8 @@
 				flag = Squad/Flags/default
 				rTrf = mk2LanderCabin (Space Station 1)
 				modCost = 0
-				crew = Sigbro Kerman
-				crew = Richsby Kerman
+				crew = #autoLOC_1200169
+				crew = #autoLOC_1200170
 				EVENTS
 				{
 				}
@@ -16485,9 +16485,9 @@
 				flag = 
 				rTrf = 
 				modCost = 0
-				crew = Jerney Kerman
-				crew = Bartbus Kerman
-				crew = Ribly Kerman
+				crew = #autoLOC_1200171
+				crew = #autoLOC_1200172
+				crew = #autoLOC_1200173
 				EVENTS
 				{
 				}

@@ -963,10 +963,10 @@ GAME
 				flag = Squad/Flags/default
 				rTrf = mk3Cockpit.Shuttle (Dynawing)
 				modCost = 0
-				crew = Kata Kerman
-				crew = Mitdos Kerman
-				crew = Irtrid Kerman
-				crew = Edler Kerman
+				crew = #autoLOC_1200037
+				crew = #autoLOC_1200036
+				crew = #autoLOC_1200035
+				crew = #autoLOC_1200033
 				EVENTS
 				{
 				}
@@ -8022,7 +8022,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bob Kerman
+			name = #autoLOC_1200031
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -8078,7 +8078,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Edler Kerman
+			name = #autoLOC_1200033
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -8110,7 +8110,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Erianna Kerman
+			name = #autoLOC_1200034
 			gender = Female
 			type = Applicant
 			trait = Engineer
@@ -8138,7 +8138,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Irtrid Kerman
+			name = #autoLOC_1200035
 			gender = Female
 			type = Crew
 			trait = Engineer
@@ -8170,7 +8170,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Mitdos Kerman
+			name = #autoLOC_1200036
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -8202,7 +8202,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Kata Kerman
+			name = #autoLOC_1200037
 			gender = Female
 			type = Crew
 			trait = Pilot
@@ -8234,7 +8234,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Suene Kerman
+			name = #autoLOC_1200038
 			gender = Female
 			type = Applicant
 			trait = Scientist
@@ -8262,7 +8262,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Jergun Kerman
+			name = #autoLOC_1200039
 			gender = Male
 			type = Applicant
 			trait = Engineer
@@ -8290,7 +8290,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Neldun Kerman
+			name = #autoLOC_1200040
 			gender = Male
 			type = Applicant
 			trait = Engineer
@@ -8318,7 +8318,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Daet Kerman
+			name = #autoLOC_1200041
 			gender = Female
 			type = Applicant
 			trait = Pilot
@@ -8346,7 +8346,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Gilbles Kerman
+			name = #autoLOC_1200042
 			gender = Male
 			type = Applicant
 			trait = Scientist
@@ -8374,7 +8374,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Maxuna Kerman
+			name = #autoLOC_1200043
 			gender = Female
 			type = Applicant
 			trait = Scientist

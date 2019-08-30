@@ -539,8 +539,8 @@ GAME
 				flag = Squad/Flags/default
 				rTrf = mk2LanderCabin (Inspiration of the Windward Spirit)
 				modCost = 0
-				crew = Billy-Bobmon Kerman
-				crew = Rodfurt Kerman
+				crew = #autoLOC_1200109
+				crew = #autoLOC_1200103
 				EVENTS
 				{
 				}
@@ -15955,7 +15955,7 @@ GAME
 				flag = Squad/Flags/default
 				rTrf = landerCabinSmall
 				modCost = 0
-				crew = Stelalla Kerman
+				crew = #autoLOC_1200107
 				EVENTS
 				{
 				}
@@ -28511,7 +28511,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bob Kerman
+			name = #autoLOC_1200097
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -28567,7 +28567,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Aralla Kerman
+			name = #autoLOC_1200099
 			gender = Female
 			type = Applicant
 			trait = Pilot
@@ -28595,7 +28595,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Isadi Kerman
+			name = #autoLOC_1200100
 			gender = Female
 			type = Applicant
 			trait = Pilot
@@ -28623,7 +28623,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Leachel Kerman
+			name = #autoLOC_1200101
 			gender = Female
 			type = Applicant
 			trait = Pilot
@@ -28651,7 +28651,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Philrey Kerman
+			name = #autoLOC_1200102
 			gender = Male
 			type = Applicant
 			trait = Engineer
@@ -28679,7 +28679,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Rodfurt Kerman
+			name = #autoLOC_1200103
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -28719,7 +28719,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Luisa Kerman
+			name = #autoLOC_1200104
 			gender = Female
 			type = Applicant
 			trait = Engineer
@@ -28747,7 +28747,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bobgun Kerman
+			name = #autoLOC_1200105
 			gender = Male
 			type = Applicant
 			trait = Engineer
@@ -28775,7 +28775,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Eliemma Kerman
+			name = #autoLOC_1200106
 			gender = Female
 			type = Applicant
 			trait = Engineer
@@ -28803,7 +28803,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Stelalla Kerman
+			name = #autoLOC_1200107
 			gender = Female
 			type = Crew
 			trait = Pilot
@@ -28843,7 +28843,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Natallian Kerman
+			name = #autoLOC_1200108
 			gender = Female
 			type = Crew
 			trait = Engineer
@@ -28871,7 +28871,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Billy-Bobmon Kerman
+			name = #autoLOC_1200109
 			gender = Male
 			type = Crew
 			trait = Engineer
@@ -28911,7 +28911,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Barina Kerman
+			name = #autoLOC_1200110
 			gender = Female
 			type = Applicant
 			trait = Pilot

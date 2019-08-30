@@ -1307,7 +1307,7 @@ GAME
 				flag = Squad/Flags/default
 				rTrf = landerCabinSmall
 				modCost = 0
-				crew = Arllian Kerman
+				crew = #autoLOC_1200126
 				EVENTS
 				{
 				}
@@ -5070,8 +5070,8 @@ GAME
 				flag = Squad/Flags/default
 				rTrf = MK1CrewCabin
 				modCost = 0
-				crew = Mellin Kerman
-				crew = Bartlo Kerman
+				crew = #autoLOC_1200124
+				crew = #autoLOC_1200128
 				EVENTS
 				{
 				}
@@ -14035,7 +14035,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Sonzer Kerman
+			name = #autoLOC_1200122
 			gender = Male
 			type = Applicant
 			trait = Scientist
@@ -14063,7 +14063,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Stalenna Kerman
+			name = #autoLOC_1200123
 			gender = Female
 			type = Applicant
 			trait = Engineer
@@ -14091,7 +14091,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Mellin Kerman
+			name = #autoLOC_1200124
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -14128,7 +14128,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Brooke Kerman
+			name = #autoLOC_1200125
 			gender = Female
 			type = Applicant
 			trait = Pilot
@@ -14156,7 +14156,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Arllian Kerman
+			name = #autoLOC_1200126
 			gender = Female
 			type = Crew
 			trait = Pilot
@@ -14193,7 +14193,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Martris Kerman
+			name = #autoLOC_1200127
 			gender = Female
 			type = Applicant
 			trait = Scientist
@@ -14221,7 +14221,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Bartlo Kerman
+			name = #autoLOC_1200128
 			gender = Male
 			type = Crew
 			trait = Engineer
@@ -14260,7 +14260,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Arlina Kerman
+			name = #autoLOC_1200129
 			gender = Female
 			type = Applicant
 			trait = Engineer
@@ -14288,7 +14288,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Jebvis Kerman
+			name = #autoLOC_1200130
 			gender = Male
 			type = Applicant
 			trait = Pilot
@@ -14316,7 +14316,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Dadra Kerman
+			name = #autoLOC_1200131
 			gender = Female
 			type = Applicant
 			trait = Pilot
@@ -14344,7 +14344,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Tomlin Kerman
+			name = #autoLOC_1200132
 			gender = Male
 			type = Applicant
 			trait = Pilot
@@ -14372,7 +14372,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Lodbal Kerman
+			name = #autoLOC_1200133
 			gender = Male
 			type = Applicant
 			trait = Scientist

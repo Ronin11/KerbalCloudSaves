@@ -188,7 +188,7 @@ GAME
 					}
 					crew
 					{
-						crews = Susa Kerman
+						crews = #autoLOC_1200058
 					}
 				}
 				Escape
@@ -281,7 +281,7 @@ GAME
 					}
 					crew
 					{
-						crews = Susa Kerman
+						crews = #autoLOC_1200058
 					}
 				}
 				Landing
@@ -294,7 +294,7 @@ GAME
 					}
 					crew
 					{
-						crews = Susa Kerman
+						crews = #autoLOC_1200058
 					}
 				}
 				SurfaceEVA
@@ -302,7 +302,7 @@ GAME
 					completed = 10866641.714351499
 					crew
 					{
-						crews = Susa Kerman
+						crews = #autoLOC_1200058
 					}
 				}
 				Flight
@@ -315,7 +315,7 @@ GAME
 					}
 					crew
 					{
-						crews = Susa Kerman
+						crews = #autoLOC_1200058
 					}
 				}
 				Suborbit
@@ -328,7 +328,7 @@ GAME
 					}
 					crew
 					{
-						crews = Susa Kerman
+						crews = #autoLOC_1200058
 					}
 				}
 				Flyby
@@ -6712,6 +6712,8 @@ GAME
 			type = Lander
 			sit = LANDED
 			landed = True
+			skipGroundPositioning = False
+			vesselSpawning = False
 			landedAt = 
 			splashed = False
 			met = 65444.673696452752
@@ -6729,6 +6731,8 @@ GAME
 			prst = False
 			ref = 2023394599
 			ctrl = False
+			PQSMin = -1
+			PQSMax = -1
 			cPch = 0
 			cHdg = 0
 			cMod = 0
@@ -8694,10 +8698,12 @@ GAME
 		VESSEL
 		{
 			pid = 69daf0f1a4ac43d28f1318ef90505128
-			name = #autoLOC_1200050 	//Susa Kerman
+			name = #autoLOC_1200058 	//Susa Kerman
 			type = EVA
 			sit = LANDED
 			landed = True
+			skipGroundPositioning = False
+			vesselSpawning = False
 			landedAt = 
 			splashed = False
 			met = 63763.325907154009
@@ -8715,6 +8721,8 @@ GAME
 			prst = False
 			ref = 0
 			ctrl = True
+			PQSMin = -1
+			PQSMax = -1
 			cPch = 0.36
 			cHdg = 1.168
 			cMod = 0
@@ -8762,7 +8770,7 @@ GAME
 				flag = Squad/Flags/default
 				rTrf = referenceTransform
 				modCost = 0
-				crew = Susa Kerman
+				crew = #autoLOC_1200058
 				EVENTS
 				{
 				}
@@ -8790,7 +8798,7 @@ GAME
 					}
 					vInfo
 					{
-						vesselName = Susa Kerman
+						vesselName = #autoLOC_1200058
 						vesselType = 9
 						rootUId = 4118810408
 					}
@@ -9260,7 +9268,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Munfurt Kerman
+			name = #autoLOC_1200055
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -9298,7 +9306,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Pholenna Kerman
+			name = #autoLOC_1200056
 			gender = Female
 			type = Crew
 			trait = Pilot
@@ -9339,7 +9347,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Patul Kerman
+			name = #autoLOC_1200057
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -9372,7 +9380,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Susa Kerman
+			name = #autoLOC_1200058
 			gender = Female
 			type = Crew
 			trait = Engineer
@@ -9415,7 +9423,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Tradolin Kerman
+			name = #autoLOC_1200059
 			gender = Female
 			type = Crew
 			trait = Scientist
@@ -9453,7 +9461,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Patvis Kerman
+			name = #autoLOC_1200060
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -9485,7 +9493,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Podmund Kerman
+			name = #autoLOC_1200061
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -9516,7 +9524,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Genewin Kerman
+			name = #autoLOC_1200062
 			gender = Male
 			type = Crew
 			trait = Engineer
@@ -9545,7 +9553,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Edming Kerman
+			name = #autoLOC_1200063
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -9575,7 +9583,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Tiby Kerman
+			name = #autoLOC_1200064
 			gender = Female
 			type = Crew
 			trait = Engineer
@@ -9603,7 +9611,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Jerdard Kerman
+			name = #autoLOC_1200065
 			gender = Male
 			type = Crew
 			trait = Scientist
@@ -9631,7 +9639,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Desely Kerman
+			name = #autoLOC_1200066
 			gender = Male
 			type = Crew
 			trait = Engineer
@@ -9659,7 +9667,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Fabien Kerman
+			name = #autoLOC_1200067
 			gender = Male
 			type = Crew
 			trait = Pilot
@@ -9687,7 +9695,7 @@ GAME
 		}
 		KERBAL
 		{
-			name = Shelsel Kerman
+			name = #autoLOC_1200068
 			gender = Male
 			type = Crew
 			trait = Scientist

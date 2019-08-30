@@ -123,6 +123,8 @@
 			type = Ship
 			sit = LANDED
 			landed = True
+			skipGroundPositioning = False
+			vesselSpawning = False
 			landedAt = 
 			splashed = False
 			met = 34165.1309750385
@@ -140,6 +142,8 @@
 			prst = False
 			ref = 3812406598
 			ctrl = True
+			PQSMin = -1
+			PQSMax = -1
 			cPch = 0.1888082
 			cHdg = 2.892401
 			cMod = 0
