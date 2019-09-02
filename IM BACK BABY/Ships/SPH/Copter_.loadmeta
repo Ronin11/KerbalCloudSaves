@@ -42,4 +42,4 @@ partModules = ModuleTestSubject
 partModules = ModuleLight
 partModules = ModuleWheelDamage
 partModules = ModuleDragModifier
-saveMD5 = 2371aaf12dba2fe7b907797310335c68
+saveMD5 = cc500ddcc2cdcaca5298531baddcedd0

@@ -39,4 +39,4 @@ partModules = ModuleAblator
 partModules = ModuleLiftingSurface
 partModules = ModuleParachute
 partModules = ModuleDragModifier
-saveMD5 = b5a3574411690bb4a302cf69bdab7737
+saveMD5 = 0cc8790537c7821d301b2b8a0f99fbbb

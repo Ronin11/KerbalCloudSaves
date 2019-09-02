@@ -41,4 +41,4 @@ partModules = ModuleLight
 partModules = ModuleWheelDamage
 partModules = ModuleDragModifier
 partModules = ModuleAnimateHeat
-saveMD5 = d81944a8a068f988777d58f1cc3dda5a
+saveMD5 = aae4c5d088f70a31004ab882a2039ca4

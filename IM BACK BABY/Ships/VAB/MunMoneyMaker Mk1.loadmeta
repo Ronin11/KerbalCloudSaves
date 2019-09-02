@@ -61,4 +61,4 @@ partModules = ModuleControlSurface
 partModules = CModuleFuelLine
 partModules = ModuleAeroSurface
 partModules = FXModuleLookAtConstraint
-saveMD5 = 090cb5d52534c6d5bffcd8d772f43e79
+saveMD5 = ef154938b1430ab26fc2f1fe073eacad

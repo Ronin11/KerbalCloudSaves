@@ -71,4 +71,4 @@ partModules = ModuleControlSurface
 partModules = CModuleFuelLine
 partModules = LaunchClamp
 partModules = ModuleGenerator
-saveMD5 = 4ca377a43164e6f94e2bd06e336b7d5a
+saveMD5 = b76b475897e5ed50ecc857f1ee96c2a5

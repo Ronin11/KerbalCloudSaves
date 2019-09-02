@@ -57,4 +57,4 @@ partModules = CModuleLinkedMesh
 partModules = CModuleStrut
 partModules = LaunchClamp
 partModules = ModuleGenerator
-saveMD5 = 8404327da3be0f73b04d6f24b2a8e0bd
+saveMD5 = 61537ca77778bb67c6413630f6929085
